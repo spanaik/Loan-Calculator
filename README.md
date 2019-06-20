@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [Material-UI](https://material-ui.com/) v4.1.1 for stlying and slider components
-Can be viewed here [Loan Calculator](https://https://spanaik.github.io/Loan-Calculator)
+Can be viewed here [Loan Calculator](https://spanaik.github.io/Loan-Calculator)
 
 Loan Calculator App
 ===================
