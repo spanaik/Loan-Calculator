@@ -66,19 +66,19 @@ const marksForAmount = [
 const marksForTenure = [
     {
         value: 6,
-        label: '6 M',
+        label: '6M',
     },
     {
         value: 12,
-        label: '12 M',
+        label: '12M',
     },
     {
         value: 18,
-        label: '18 M',
+        label: '18M',
     },
     {
         value: 24,
-        label: '24 M',
+        label: '24M',
     },
 ]
 
@@ -166,7 +166,7 @@ class Form extends React.Component {
                                             step={100}
                                             valueLabelDisplay="auto"
                                             marks={marksForAmount}
-                                            value={this.state.amount}
+                                            value={amount}
                                             onChange={this.handleAmountChange}
                                         />
                                     </div>
@@ -195,7 +195,7 @@ class Form extends React.Component {
                                             step={1}
                                             valueLabelDisplay="auto"
                                             marks={marksForTenure}
-                                            value={this.state.numOfMonths}
+                                            value={numOfMonths}
                                             onChange={this.handleTenureChange}
                                         />
                                     </div>

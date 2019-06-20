@@ -1,6 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [Material-UI](https://material-ui.com/) v4.1.1 for stlying and slider components
+Can be viewed here [Loan Calculator](https://https://spanaik.github.io/Loan-Calculator)
 
-## Loan Calculator App
+Loan Calculator App
+===================
 
 This is a react app that calculates the number of payments & the monthly payment EMI
 

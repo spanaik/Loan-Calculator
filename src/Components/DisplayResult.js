@@ -69,7 +69,7 @@ class DisplayResult extends React.Component {
                 <div className={classes.root}>
                     <Grid container justify="center">
                         <Grid container spacing={4} justify="center" className={classes.grid} >
-                            <Grid item xs={12} md={4}>
+                            <Grid item xs={12} sm={8} md ={6} lg={4}>
                                 <Paper className={classes.paper} style={{position: 'relative'}}>
                                     <div>
                                         <Typography variant="h6" gutterBottom>
@@ -92,14 +92,7 @@ class DisplayResult extends React.Component {
                                                 {numeral(numOfPayments).format()}
                                             </Typography>
                                         </div>
-                                        <div className={classes.mainBadge}>
-                                            <Typography variant="subtitle1" gutterBottom>
-                                                Interest Rate
-                                            </Typography>
-                                            <Typography variant="h5" color={'secondary'} gutterBottom>
-                                                {intRate} %
-                                            </Typography>
-                                        </div>
+                                        
                                         <Divider />
                                         <div className={classes.mainBadge}>
                                             <Typography variant="subtitle1" gutterBottom>
@@ -113,7 +106,7 @@ class DisplayResult extends React.Component {
                                             <Typography variant="subtitle1" gutterBottom>
                                                 Principal Amount
                                             </Typography>
-                                            <Typography variant="h6" color={'secondary'} gutterBottom>
+                                            <Typography variant="subtitle1" color={'secondary'} gutterBottom>
                                                 {numeral(principalAmount).format()} USD
                                             </Typography>
                                         </div>
@@ -121,8 +114,16 @@ class DisplayResult extends React.Component {
                                             <Typography variant="subtitle1" gutterBottom>
                                                 Interest Amount
                                             </Typography>
-                                            <Typography variant="h6" color={'secondary'} gutterBottom>
+                                            <Typography variant="subtitle1" color={'secondary'} gutterBottom>
                                                 {numeral(interestAmount).format()} USD
+                                            </Typography>
+                                        </div>
+                                        <div className={classes.mainBadge}>
+                                            <Typography variant="subtitle1" gutterBottom>
+                                                Interest Rate
+                                            </Typography>
+                                            <Typography variant="subtitle1" color={'secondary'} gutterBottom>
+                                                {intRate} %
                                             </Typography>
                                         </div>
                                     </div>
